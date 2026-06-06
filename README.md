@@ -12,13 +12,11 @@
 
 ## o que é isso
 
-Eu sou o **emptymtz**, artista independente da Zona Leste de São Paulo. Sou apaixonado por glitch art, arte digital, projeções — basicamente por bugar a realidade de todo jeito possível.
+## 🎨 O que é / What is it?
 
-Sempre quis construir uma ferramenta assim, mas sou muito mais bom em pensar fundo nas coisas do que na parte técnica. Então usei IA pra me ajudar a dar vida ao que só existia na minha cabeça. O resultado é o **EmptyVisual$**: uma máquina de glitch visual que roda direto no navegador, 100% gratuita e open source.
+**EmptyVisual$** é uma ferramenta gratuita e open source para gerar visuais psicodélicos e glitch art em tempo real, direto no navegador. Combine filtros, manipule cores, distorções e moduladores para criar arte visual única — tudo processado via WebGL, 100% client-side, sem servidor.
 
-Inspirado pelo projeto *Acid Cam* e pelo artista e mago dos códigos *Jared*.
-
-Se quiser apoiar o trampo: [☕ me paga um café](#apoio)
+**EmptyVisual$** is a free, open-source tool for generating psychedelic visuals and glitch art in real time, directly in your browser. Combine filters, manipulate colors, distortions, and modulators to create unique visual art — all processed via WebGL, 100% client-side, no server required.
 
 ---
 
@@ -48,7 +46,7 @@ Acessa o deploy no Vercel e já vai. Sem instalar nada.
 
 ### local
 ```bash
-git clone https://github.com/emptymtz/emptyvisuals.git
+git clone https://github.com/s4bedoriaocult4/emptyvisuals.git
 cd emptyvisuals
 npx serve .
 # abre http://localhost:3000
@@ -125,10 +123,7 @@ Tudo roda no seu navegador. Nenhum dado vai pra servidor, nenhum upload real aco
 
 Se o projeto te ajudou, qualquer contribuição é muito bem-vinda:
 
-- **PIX:** `seu-pix-aqui@email.com`
 - **Ko-fi:** [ko-fi.com/emptymtz](https://ko-fi.com/emptymtz)
-- **PayPal:** [paypal.me/emptymtz](https://paypal.me/emptymtz)
-- **Bitcoin:** `sua-carteira-aqui`
 
 ---
 
