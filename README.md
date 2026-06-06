@@ -43,6 +43,7 @@
 
 ### online
 Acessa o deploy no Vercel e já vai. Sem instalar nada.
+>> https://emptyvisuals.vercel.app/
 
 ### local
 ```bash
