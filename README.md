@@ -2,7 +2,7 @@
 
 # EmptyvisualZ
 
-**Máquina de Glitch Visual em Tempo Real**
+**Máquina de Glitch Visual em Tempo Real** --
 *Real-Time Visual Glitch Machine*
 
 <br>
@@ -14,7 +14,7 @@
 
 <br>
 
-> *"o erro digital pode ser um grande acerto"*
+> *"O erro digital pode ser um grande acerto"*
 > — jah works ✦
 
 <br>
@@ -23,8 +23,6 @@
 
 <br>
 
-**▶ Mais demos:**
-[output1.webm](output1.webm) · [output2.webm](output2.webm) · [output3.webm](output3.webm)
 
 </div>
 
@@ -44,7 +42,7 @@ Stack effects, manipulate colors, distortions and modulators live. Perfect for *
 
 ---
 
-## ⚡ Funcionalidades
+## Funcionalidades
 
 | | |
 |:---:|:---|
@@ -65,7 +63,7 @@ Stack effects, manipulate colors, distortions and modulators live. Perfect for *
 
 ---
 
-## 🚀 Como usar
+##  Como usar
 
 ### Online — sem instalar nada
 
@@ -136,10 +134,7 @@ npx serve .
 emptyvisuals/
 ├── index.html      # aplicação completa (single file)
 ├── demo.mp4        # vídeo de demo padrão
-├── output1.gif     # demo animado
-├── output1.webm    # demo de efeito 1
-├── output2.webm    # demo de efeito 2
-├── output3.webm    # demo de efeito 3
+├── output1.gif     # git art demo
 ├── LICENSE
 └── README.md
 ```
@@ -169,6 +164,6 @@ MIT — usa, modifica, distribui à vontade.
 
 <div align="center">
 
-*carar jah works* ✦
+*jah works* ✦
 
 </div>
