@@ -1,51 +1,80 @@
-# EmptyVisual$
+<div align="center">
 
-**Máquina de Glitch Visual em Tempo Real** — *Visual Glitch Machine*
+# EmptyvisualZ
 
-> jah works ✦
+**Máquina de Glitch Visual em Tempo Real**
+*Real-Time Visual Glitch Machine*
 
-![License](https://img.shields.io/badge/license-MIT-green)
-![Version](https://img.shields.io/badge/version-V8-brightgreen)
-![WebGL](https://img.shields.io/badge/powered%20by-WebGL-orange)
+<br>
+
+[![License](https://img.shields.io/badge/license-MIT-00ff41?style=for-the-badge)](LICENSE)
+[![Version](https://img.shields.io/badge/version-v1.0-00cc33?style=for-the-badge)](#)
+[![WebGL](https://img.shields.io/badge/powered%20by-WebGL-ff6600?style=for-the-badge)](#)
+[![Vanilla](https://img.shields.io/badge/zero%20deps-vanilla%20js-ffaa00?style=for-the-badge)](#)
+
+<br>
+
+> *"o erro digital pode ser um grande acerto"*
+> — jah works ✦
+
+<br>
+
+![EmptyvisualZ Demo](output1.gif)
+
+<br>
+
+**▶ Mais demos:**
+[output1.webm](output1.webm) · [output2.webm](output2.webm) · [output3.webm](output3.webm)
+
+</div>
 
 ---
 
-## o que é isso
+## 🎨 O que é?
 
-## 🎨 O que é / What is it?
+**EmptyvisualZ** é uma ferramenta gratuita e open source para gerar visuais psicodélicos e glitch art em tempo real, direto no navegador — sem instalar nada, sem servidor, sem dependências.
 
-**EmptyVisual$** é uma ferramenta gratuita e open source para gerar visuais psicodélicos e glitch art em tempo real, direto no navegador. Combine filtros, manipule cores, distorções e moduladores para criar arte visual única — tudo processado via WebGL, 100% client-side, sem servidor.
-
-**EmptyVisual$** is a free, open-source tool for generating psychedelic visuals and glitch art in real time, directly in your browser. Combine filters, manipulate colors, distortions, and modulators to create unique visual art — all processed via WebGL, 100% client-side, no server required.
+Combine filtros WebGL, manipule cores, distorções e moduladores ao vivo. Perfeito para **VJing**, **projeções artísticas**, **instalações interativas** e **exploração criativa de glitch art**.
 
 ---
 
-## o que dá pra fazer
+**EmptyvisualZ** is a free, open-source tool for generating psychedelic visuals and glitch art in real time, directly in your browser — no install, no server, no dependencies.
+
+Stack effects, manipulate colors, distortions and modulators live. Perfect for **VJing**, **art projections**, **interactive installations** and **creative glitch art exploration**.
+
+---
+
+## ⚡ Funcionalidades
 
 | | |
-|---|---|
-| 🔥 **30+ Efeitos WebGL** | Mirrors, warps, anomalias, filtros — todos empilháveis |
-| 🎨 **22 Mapas Cromáticos** | De Phosphor Verde a Rainbow Prism, troca ao vivo |
-| 🎮 **Suporte a Gamepad** | Xbox, PlayStation, genéricos — controla tudo pelo controle |
-| 📹 **Webcam / Câmera Mobile** | Captura ao vivo direto do navegador |
-| 📼 **Upload de Vídeo** | MP4, WebM e OGG |
-| 🖼️ **Frame Lens** | 9 overlays: CRT, VHS, Fish, Neon, Amber... |
-| ✍️ **Texto Sobreposto** | Injeta texto com fonte, cor, glow e blink |
-| 🔴 **Gravação WebM** | Grava a saída processada em vídeo |
-| 📷 **Captura de Frame** | Salva qualquer frame como PNG |
-| 🌐 **PT / EN** | Interface em português e inglês |
-| 📱 **Mobile** | Layout responsivo, funciona no celular |
-| ⛶ **Fullscreen & Popout** | Tela cheia ou janela destacada pra VJing |
+|:---:|:---|
+| 🔥 | **32+ Efeitos WebGL** — Mirrors, warps, anomalias e filtros, todos acumuláveis no Stack Ativo |
+| 🎨 | **22 Mapas Cromáticos** — Phosphor Verde, Thermal, Rainbow Prism, e muito mais |
+| 🎮 | **Suporte a Gamepad** — Xbox, PlayStation e genéricos via Gamepad API |
+| 📹 | **Upload de Vídeo** — MP4, WebM e outros formatos suportados pelo navegador |
+| 🖼️ | **Upload de Imagem** — PNG, JPG como fonte de fundo ou overlay |
+| 🧩 | **Overlay & Blend Modes** — Mescle uma segunda imagem em tempo real com múltiplos modos |
+| 📐 | **Aspect Ratio & Rotação** — 16:9, 9:16, 1:1, 4:3, flip e rotação ao vivo |
+| 📷 | **Webcam** — Captura de câmera ao vivo diretamente no browser |
+| ✍️ | **Texto Sobreposto** — Injete texto com fonte, cor, glow e blink |
+| 🔴 | **Gravação WebM** — Grave suas performances direto em vídeo |
+| 📸 | **Captura de Frame** — Salve qualquer frame como PNG instantaneamente |
+| 📺 | **Fullscreen & Popout** — Tela cheia limpa ou janela destacada pra segundo monitor |
+| 🌐 | **PT / EN** — Interface bilíngue completa |
+| 📱 | **Mobile** — Layout responsivo, funciona no celular |
 
 ---
 
-## como usar
+## 🚀 Como usar
 
-### online
-Acessa o deploy no Vercel e já vai. Sem instalar nada.
->> https://emptyvisuals.vercel.app/
+### Online — sem instalar nada
 
-### local
+```
+https://emptyvisuals.vercel.app/
+```
+
+### Local
+
 ```bash
 git clone https://github.com/s4bedoriaocult4/emptyvisuals.git
 cd emptyvisuals
@@ -53,93 +82,93 @@ npx serve .
 # abre http://localhost:3000
 ```
 
-> ⚠️ Abrir o `index.html` direto como `file://` pode travar por restrição de CORS do navegador. Usa um servidor local ou o deploy.
+> ⚠️ Abrir o `index.html` diretamente como `file://` pode bloquear Webcam e uploads por restrição de CORS. Use um servidor local ou o deploy online.
 
 ---
 
-## controles
-
-### teclado
+## ⌨️ Atalhos de Teclado
 
 | Tecla | Efeito |
-|---|---|
-| `Q W E R T Y U` | RGB, Scan, Slice, Edge, Noise, Pixel, Invert |
+|:---:|:---|
+| `Q W E R T Y U` | RGB / Scan / Slice / Edge / Noise / Pixel / Invert |
 | `I O` | Kaleidoscope 4x / 8x |
-| `A S D F` | Mirrors (X, Y, Quad, Diag) |
+| `A S D F` | Mirrors (X, Y, Quad, Diagonal) |
 | `P` | Acid Warp |
-| `1-9, 0, -, =` | Mapa cromático direto |
-| `Espaço` | Limpa todos os efeitos |
-| `Enter` | Efeitos aleatórios |
-| `Setas` | Pan X/Y |
+| `1 – 9, 0, -, =` | Mapas cromáticos diretos |
+| `Espaço` | Limpa todos os filtros |
+| `Enter` | Stack aleatório de efeitos |
+| `↑ ↓ ← →` | Pan X/Y do feed |
 | `[ / ]` | Zoom |
 | `PgUp / PgDn` | Blur |
 
-### gamepad (Xbox / padrão)
+---
+
+## 🎮 Controle / Gamepad
 
 | Botão | Ação |
-|---|---|
+|:---:|:---|
 | `A` | Acid Warp |
 | `B` | Kaleidoscope 4x |
 | `X` | Datamosh |
 | `Y` | Kaleidoscope 8x |
 | `LB / RB` | Navega mapas cromáticos |
 | `LT / RT` | Escurece / Clareia |
-| `D-Pad` | Scan, Edge, RGB, Slice |
+| `D-Pad` | Scan / Edge / RGB / Slice |
 | `L-Stick` | Pan XY |
-| `R-Stick` | Zoom / Hue |
+| `R-Stick` | Zoom / Hue Shift |
 | `Select` | Limpa efeitos |
 | `L3 + R3` | Reset total |
 
 ---
 
-## stack
+## 🛠️ Stack
 
-- **HTML5 + CSS3 + JS Vanilla** — zero dependências externas
-- **WebGL** — renderização GPU em tempo real (60fps)
+- **HTML5 + CSS3 + Vanilla JS** — zero dependências externas
+- **WebGL 1.0** — renderização GPU em tempo real (60fps)
 - **MediaRecorder API** — gravação nativa do canvas
-- **Gamepad API** — suporte nativo a controles
+- **Gamepad API** — suporte a controles XInput/DirectInput
 
 ---
 
-## estrutura
+## 📁 Estrutura
 
 ```
 emptyvisuals/
-├── index.html     # aplicação completa (single file)
-├── demo.mp4       # vídeo de demonstração
-├── .gitignore
+├── index.html      # aplicação completa (single file)
+├── demo.mp4        # vídeo de demo padrão
+├── output1.gif     # demo animado
+├── output1.webm    # demo de efeito 1
+├── output2.webm    # demo de efeito 2
+├── output3.webm    # demo de efeito 3
 ├── LICENSE
 └── README.md
 ```
 
 ---
 
-## segurança / privacidade
+## 🔒 Privacidade
 
-Tudo roda no seu navegador. Nenhum dado vai pra servidor, nenhum upload real acontece — os arquivos são lidos localmente via `URL.createObjectURL()`. Sem cookies de tracking, só `localStorage` pras preferências.
-
----
-
-## apoio
-
-Se o projeto te ajudou, qualquer contribuição é muito bem-vinda:
-
-- **Ko-fi:** [ko-fi.com/emptymtz](https://ko-fi.com/emptymtz)
+Tudo roda localmente no seu navegador. Nenhum dado, vídeo ou imagem enviada vai para servidores externos. O processamento acontece inteiramente na sua GPU/CPU.
 
 ---
 
-## créditos
+## ☕ Apoie
 
-Feito com Claude Sonnet, Gemini e Antigravity.
+Se o projeto foi útil nas suas performances ou criações:
 
-📷 Instagram: [@empty.mtz](https://instagram.com/empty.mtz)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-apoie%20o%20projeto-ff5f5f?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/emptymtz)
+[![Instagram](https://img.shields.io/badge/Instagram-%40empty.mtz-e1306c?style=for-the-badge&logo=instagram)](https://instagram.com/empty.mtz)
 
 ---
 
-## licença
+## 📄 Licença
 
 MIT — usa, modifica, distribui à vontade.
 
 ---
 
+<div align="center">
+
 *carar jah works* ✦
+
+</div>
